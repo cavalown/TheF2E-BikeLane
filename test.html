@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-group">
+        <div class="search-area">
+            <input type="text" placeholder="請輸入關鍵字" class="keyword">
+        </div>
+        <div class="search-area">
+            <select name="search-city"  class="area-item" id="">
+                <option selected class="city">地區</option>
+                <option value="Taipei" class="city">台北</option>
+                <option value="Kaohsiung" class="city">高雄</option>
+            </select>
+            <select name="search-type" id=""  class="area-item">
+                <option class="type" selected>類型</option>
+                <option value="scene" class="type">景點</option>
+                <option value="food" class="type">美食</option>
+            </select>           
+            <button class="submit area-btn" type="button">搜尋</button>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<style>
+    *,
+*::after,
+*::after {
+box-sizing: border-box;
+}
+    body {
+        width: 1024px;
+        margin: 0 auto;
+    }
+    .form-group{
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        border: 2px solid green;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .keyword{
+        width: 350px;
+        height: 40px;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        border: 2px solid green;
+    }
+    .area-item{
+        width: 100px;
+        height: 50px;
+        font-size: 18px;
+        text-align: center;
+        border-radius: 10px;
+        margin-right: 10px;
+        /* background: rgba(217, 231, 90, 0.5) */
+        border: 2px solid blue;
+    }
+    .area-btn{
+        width: 100px;
+        height: 60px;
+        border-radius: 30px;
+        margin-left: 10px;
+        border: 2px solid purple;
+        font-size: 25px;
+    }
+</style>
