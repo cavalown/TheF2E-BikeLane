@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{310:function(n,e,t){"use strict";t.r(e);var c={name:"SearchLanePage"},r=t(51),component=Object(r.a)(c,(function(){this._self._c;return this._m(0)}),[function(){var n=this._self._c;return n("main",[n("h1",[this._v("Search Lane Page !!!")])])}],!1,null,null,null);e.default=component.exports}}]);
