@@ -1,4 +1,8 @@
 export default {
+  router: {
+    base: '/TheF2E-BikeLane/'
+  },
+
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
