@@ -30,4 +30,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.THE_F2E_TAIWAN_BIKE_LANE }}
-          publish_dir: ./dist
+          publish_dir: .nuxt
