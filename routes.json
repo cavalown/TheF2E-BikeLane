@@ -1,0 +1,30 @@
+[
+  {
+    "name": "searchBike",
+    "path": "/searchBike",
+    "component": "/home/runner/work/TheF2E-BikeLane/TheF2E-BikeLane/pages/searchBike.vue",
+    "chunkName": "pages/searchBike",
+    "_name": "_a7506fc8"
+  },
+  {
+    "name": "searchLane",
+    "path": "/searchLane",
+    "component": "/home/runner/work/TheF2E-BikeLane/TheF2E-BikeLane/pages/searchLane.vue",
+    "chunkName": "pages/searchLane",
+    "_name": "_191038a7"
+  },
+  {
+    "name": "searchResult",
+    "path": "/searchResult",
+    "component": "/home/runner/work/TheF2E-BikeLane/TheF2E-BikeLane/pages/searchResult.vue",
+    "chunkName": "pages/searchResult",
+    "_name": "_3fee1cd0"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/runner/work/TheF2E-BikeLane/TheF2E-BikeLane/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_535625a2"
+  }
+]
