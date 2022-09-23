@@ -1,5 +1,26 @@
 [
   {
+    "name": "searchBike",
+    "path": "/searchBike",
+    "component": "/Users/huangyiling/Github/TheF2E/TheF2E-BikeLane/pages/searchBike.vue",
+    "chunkName": "pages/searchBike",
+    "_name": "_f4f1c140"
+  },
+  {
+    "name": "searchLane",
+    "path": "/searchLane",
+    "component": "/Users/huangyiling/Github/TheF2E/TheF2E-BikeLane/pages/searchLane.vue",
+    "chunkName": "pages/searchLane",
+    "_name": "_1b80e02a"
+  },
+  {
+    "name": "searchResult",
+    "path": "/searchResult",
+    "component": "/Users/huangyiling/Github/TheF2E/TheF2E-BikeLane/pages/searchResult.vue",
+    "chunkName": "pages/searchResult",
+    "_name": "_2abf87dc"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/huangyiling/Github/TheF2E/TheF2E-BikeLane/pages/index.vue",

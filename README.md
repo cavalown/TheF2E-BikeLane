@@ -1,5 +1,15 @@
 # TheF2E-BikeLane
 
+- Practice Nust.js - SPA
+- Use UI/UX => [Hao's 自行車道地圖資訊整合網](https://www.figma.com/file/pPIAZlTKHDddXlu1bB8tSf/Week2---%E8%87%AA%E8%A1%8C%E8%BB%8A%E9%81%93%E5%9C%B0%E5%9C%96%E8%B3%87%E8%A8%8A%E6%95%B4%E5%90%88%E7%B6%B2)
+
+## Create project
+```bash
+$ npx create-nuxt-app <project-name>
+# create project at current directory
+$ npx create-nuxt-app .
+```
+
 ## Build Setup
 
 ```bash
@@ -66,3 +76,8 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+
+
+## My Notes:
+### pages
+每個vue都會自動生成router，使用`<NuxtLink to="vue-path">Link Title</NuxtLink>`，可以直接連結到該頁面。
