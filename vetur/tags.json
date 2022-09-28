@@ -2,13 +2,7 @@
   "Header": {
     "description": "Auto imported from components/Header.vue"
   },
-  "NuxtLogo": {
-    "description": "Auto imported from components/NuxtLogo.vue"
-  },
   "SearchColumn": {
     "description": "Auto imported from components/SearchColumn.vue"
-  },
-  "Tutorial": {
-    "description": "Auto imported from components/Tutorial.vue"
   }
 }

@@ -6,7 +6,6 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _a7506fc8 = () => interopDefault(import('../pages/searchBike.vue' /* webpackChunkName: "pages/searchBike" */))
 const _191038a7 = () => interopDefault(import('../pages/searchLane.vue' /* webpackChunkName: "pages/searchLane" */))
-const _3fee1cd0 = () => interopDefault(import('../pages/searchResult.vue' /* webpackChunkName: "pages/searchResult" */))
 const _535625a2 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -28,10 +27,6 @@ export const routerOptions = {
     path: "/searchLane",
     component: _191038a7,
     name: "searchLane"
-  }, {
-    path: "/searchResult",
-    component: _3fee1cd0,
-    name: "searchResult"
   }, {
     path: "/",
     component: _535625a2,

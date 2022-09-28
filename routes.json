@@ -14,13 +14,6 @@
     "_name": "_191038a7"
   },
   {
-    "name": "searchResult",
-    "path": "/searchResult",
-    "component": "/home/runner/work/TheF2E-BikeLane/TheF2E-BikeLane/pages/searchResult.vue",
-    "chunkName": "pages/searchResult",
-    "_name": "_3fee1cd0"
-  },
-  {
     "name": "index",
     "path": "/",
     "component": "/home/runner/work/TheF2E-BikeLane/TheF2E-BikeLane/pages/index.vue",
