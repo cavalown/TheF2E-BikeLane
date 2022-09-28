@@ -1,4 +1,5 @@
 export default {
+  target: 'static',
   router: {
     base: '/TheF2E-BikeLane/'
   },
