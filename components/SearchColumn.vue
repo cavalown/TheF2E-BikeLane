@@ -1,11 +1,13 @@
 <template>
-  <div class="wrap">
+  <div class="search-column">
     <form>
-      <input type="text" placeholder="請輸入關鍵字" />
+      <input type="text" placeholder="請輸入關鍵字" v-model="keyword" />
       <div class="actions">
-        <select name="city" id="">
+        <select name="city" v-model="chooseCity">
           <option value="">縣市</option>
-          <option value="city">City-Name</option>
+          <option v-for="city of citys" :key="city">
+            {{ city }}
+          </option>
         </select>
         <button type="submit">搜尋</button>
       </div>
@@ -16,15 +18,40 @@
 <script>
 export default {
   name: 'SearchColumn',
+  data() {
+    return {
+      keyword: '',
+      chooseCity: '',
+      citys: [
+        '台北市',
+        '新北市',
+        '桃園市',
+        '新竹市',
+        '苗栗縣',
+        '台中市',
+        '彰化縣',
+        '雲林縣',
+        '嘉義縣',
+        '台南市',
+        '高雄市',
+        '屏東縣',
+        '宜蘭縣',
+        '花蓮縣',
+        '台東縣',
+        '澎湖縣',
+        '金門縣',
+      ],
+    }
+  },
 }
 </script>
 
 <style lang="scss">
-.wrap {
+.search-column {
   background: none;
   box-shadow: none;
   form {
-    width: 100%;
+    width: calc(100% - 1px);
     input {
       width: 98%;
       height: 40px;

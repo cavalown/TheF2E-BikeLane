@@ -1,7 +1,9 @@
 <template>
-  <div class="wrap">
+  <div class="header">
     <div class="logo">
-      <img src="../assets/images/LOGO.svg" alt="logo">
+      <NuxtLink to="/"
+        ><img src="../assets/images/LOGO.svg" alt="logo"
+      /></NuxtLink>
     </div>
     <ul class="navbar">
       <li>
@@ -17,13 +19,16 @@
 <script>
 export default {
   name: 'Header',
+  data() {
+    return {}
+  },
 }
 </script>
 
 <style lang="scss">
-.wrap {
+.header {
   height: 80px;
-  box-shadow: 0 0 6px black;
+  border-bottom: rgba(36, 33, 33, 0.3) 2px solid;
   display: flex;
   justify-content: space-between;
   background-color: white;
@@ -47,7 +52,6 @@ export default {
       height: 40px;
       display: block;
       text-align: center;
-
 
       a {
         text-decoration: none;

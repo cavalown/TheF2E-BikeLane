@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+* {
+  box-sizing: content-box;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+:root {
+  --primary-tiny: #F0F9FC;
+  --primary-light: #12749D;
+  --primary: #0E5978;
+  --primary-dark: #0A4259;
+  --red-default: #CC1010;
+  --red-light: #F4DCDC;
+  --orange-default: #EB8F05;
+  --orange-light: #F5E6D0;
+  --gray-black: #F5E6D0;
+  --gray-800: #484848;
+  --gray-700: #676767;
+  --gray-600: #7B7B7B;
+  --gray-500: #A5A5A5;
+  --gray-400: #C3C3C3;
+  --gray-300: #E5E5E5;
+  --gray-200: #F1F1F1;
+  --gray-100: #F6F6F6;
+  --white: #FFFFFF;
+  --route: #C50047;
+  --food: #F0712A;
+  --view: #21A400;
+}
+
+h1 {
+  line-height: 50px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h2 {
+  line-height: 50px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h3 {
+  line-height: 35px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+h4 {
+  line-height: 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h5 {
+  line-height: 25px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.title {
+  line-height: 27px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.subtitle {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.subtitle2 {
+  line-height: 21px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.body1 {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.body2 {
+  line-height: 21px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.body3 {
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: 400;
+}
